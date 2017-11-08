@@ -1,0 +1,29 @@
+{
+  "name": "personal-webserver",
+  "version": "1.0.0",
+  "description": "To prototype content, learn, and show work on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhynes94/personal-webserver.git"
+  },
+  "author": "Justin Hynes-Bruell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhynes94/personal-webserver/issues"
+  },
+  "homepage": "https://github.com/jhynes94/personal-webserver#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  }
+}
