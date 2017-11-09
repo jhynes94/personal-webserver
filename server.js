@@ -19,7 +19,7 @@ app.post('/quotes', (req, res) => {
     console.log(req.body)
   })
 
-  
+  /*
 MongoClient.connect('link-to-mongodb', (err, database) => {
     // ... start the server
-  })
+  })*/
