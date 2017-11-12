@@ -29,7 +29,7 @@ cd personal-webserver
 # Install dependencies
 npm install
 # Run the app
-npm dev
+npm run dev
 ```
 
 ## Todo
