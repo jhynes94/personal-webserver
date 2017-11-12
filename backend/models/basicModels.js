@@ -1,35 +1,7 @@
-module.exports = function () {
-
-    var mongoose = require('mongoose');
-    
-    var connectionString = 'mongodb://justinmongo:aFoolishPass4Mongo@ds251845.mlab.com:51845/test-db-personal-website';
-    /*
-    var connectionString = 'mongodb://localhost/project';
-
-    if (process.env.OPENSHIFT_MONGODB_DB_PASSWORD) {
-        connectionString = process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
-            process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
-            process.env.OPENSHIFT_MONGODB_DB_HOST + ':' +
-            process.env.OPENSHIFT_MONGODB_DB_PORT + '/' +
-            process.env.OPENSHIFT_APP_NAME;
-    }
-    */
-
-    var projectDB = mongoose.createConnection(connectionString);
-
-    var userModel = require("./user/user.model")(projectDB);
-
-    var models = {
-        userModel: userModel
-    };
-
-    return models;
-
-
-
+module.exports = function (app) {
 
     //If I determine not to use Mongoose, you can post things to the database like such
-    /*
+
     //Setup Mongo DB
     const MongoClient = require('mongodb').MongoClient
     var db
@@ -42,6 +14,12 @@ module.exports = function () {
             console.log('listening on 3000')
         })
     })
+
+
+
+
+
+    
 
     app.post('/quotes', (req, res) => {
         db.collection('quotes').save(req.body, (err, result) => {
@@ -61,6 +39,4 @@ module.exports = function () {
             // send HTML file populated with quotes here
         })
     })
-    */
-
 };

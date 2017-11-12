@@ -17,6 +17,21 @@ npm install
 npm start
 ```
 
+## To Develop on system
+
+This will cocurrently run a gulp file that refreshes the webpage when changes are made to the html and CSS. It will also auto restart the server when changes are made to the backend.
+
+```bash
+# Clone this repository
+git clone https://github.com/jhynes94/personal-webserver
+# Go into the repository
+cd personal-webserver
+# Install dependencies
+npm install
+# Run the app
+npm dev
+```
+
 ## Todo
 
 - Support Mongo Backend

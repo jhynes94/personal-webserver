@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
+    "dev": "npm nodemon server.js | npm run gulp dev",
+    "nodemon": "nodemon server.js",
+    "gulp": "gulp dev",
     "start": "node server.js"
   },
   "repository": {
@@ -19,11 +21,14 @@
   },
   "homepage": "https://github.com/jhynes94/personal-webserver#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
     "nodemon": "^1.12.1"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.1"
   }
 }
