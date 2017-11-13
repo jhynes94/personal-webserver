@@ -34,7 +34,7 @@ npm run dev
 
 ## Todo
 
-- Support Mongo Backend
+- Support Mongo Backend localy
 
 ## License
 
