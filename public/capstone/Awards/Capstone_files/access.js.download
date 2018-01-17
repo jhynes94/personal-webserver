@@ -1,4 +1,0 @@
-(function() {var access_analytics = {"instance_id":"AA-584efe4d8260f","base_url":"https:\/\/analytics.ssbbartgroup.com\/api\/"};
-Node.prototype.ssborigael=Node.prototype.addEventListener;Node.prototype.addEventListener=function(b,a,c){this.ssborigael(b,a,c);this.ssb_event_log||(this.ssb_event_log=[]);this.ssb_event_log.push(b)};
-var accessJSFunc=function(){var b=window.location.href,a=document.createElement("script");a.type="text/javascript";a.id="ssb_accessjs";a.setAttribute("data-ssbajs",access_analytics.instance_id);b=access_analytics.base_url+"loader.js?o\x3d"+access_analytics.instance_id+"\x26url\x3d"+encodeURIComponent(b);a.src=b;document.head.appendChild(a)};window.addEventListener?window.addEventListener("load",accessJSFunc,!1):window.attachEvent("onload",accessJSFunc);
-})();
