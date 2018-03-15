@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/jhynes94/personal-webserver#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
     "nodemon": "^1.12.1"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
+    "moment": "^2.20.1",
     "mongodb": "^2.2.33",
     "mongoose": "^4.13.1"
   }
