@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="CSS/landing-page.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="CSS/timeline.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+  <title>JHB</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand topnav" href="#"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#Abstract">Abstract</a>
+          </li>
+          <li>
+            <a href="#Design">Design</a>
+          </li>
+          <li>
+            <a href="#Results">Results</a>
+          </li>
+          <li>
+            <a href="#Awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <!-- Header -->
+  <a name="Intro"></a>
+  <div class="intro-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="intro-message">
+            <h1>Project V.I.E.W</h1>
+            <h3>Capstone 2017</h3>
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+              <li>
+                <a href="./documents/R_Capstone_VIEW_2017.pdf" class="btn btn-default btn-lg">
+                  <i class="fa fa-file-text fa-fw"></i>
+                  <span class="network-name">Report</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/bdunbar22/Capstone-Software" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li>
+                <a href="./documents/2017-RISE-VIEW-Poster.png" class="btn btn-default btn-lg">
+                  <i class="fa fa-picture-o fa-fw"></i>
+                  <span class="network-name">Poster</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.intro-header -->
+
+
+
+  <a name="Abstract"></a>
+  <div class="content-section-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <h2 class="section-heading">Abstract</h2>
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-sm-6">
+          <p class="lead">Humans primarily use their sense of sight for spatial awareness and to navigate their surroundings, but lack the
+            ability to employ their other senses as guidance systems. This report details the design of a wearable feedback
+            device which makes visionless navigation possible, and has potential uses in low light environments when artificial
+            light is not an option, situations where 360◦ awareness is important (such as riding a bike on a busy road) and
+            applications where a user is piloting a system remotely. Visually impaired persons could be positively impacted
+            by an affordable device which allows them to sense their surroundings in greater detail than other solutions
+            on the market today.</p>
+          <p class="lead">The feedback platform developed during this research has shown the ability to assist individuals with recognizing
+            and avoiding walls. This has been tested in a virtual maze with a joystick controller and a virtual reality headset.
+            In a majority of cases, users were able to successfully navigate an unknown maze without vision, using the wearable
+            as their primary method for navigation.</p>
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <img class="img-responsive" src="documents/AR-eye.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <a name="Design"></a>
+    <div class="content-section-b">
+      <h1 style="text-align: center" class="section-heading">Design</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img style="display: block;margin: 0 auto;" class="img-responsive" src="documents/Sytem-Design.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Software</h2>
+            <p class="lead">The Unity game engine enabled the rendering of a 3D enviroment to navigate with either a controller or a full
+              VR system (HTC VIVE). Signals were routed by Uniduino to the Arduino RF dongle via USB</p>
+            <p class="lead">As a player, the goal was to navigate the maze with vision. Then naviagte a randomly given maze blindfolded (visionless)
+              with the use of the VIEW system. </p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/Maze-Picture.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Electical</h2>
+            <p class="lead">Altium was used to design the PCB for production. To view the schematic and board design, follow this
+              <a href="https://workspace.circuitmaker.com/Projects/Details/Justin-Hynes-Bruell-2/Capstone-Feedback-V3B">link.</a> We fabricated the PCB in China using PCBWAY. Assembly was done in back in Boston by hand.</p>
+            <p class="lead">The system functioned wireless using the NRF24L01 module. The system was powered with a LiPo battery, with voltage
+              and charge protection.</p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 130px" class="img-responsive" src="documents/Final-Board.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Enclosure</h2>
+            <p class="lead">OnShape was used to design the enclosure. To view the enclosure, follow this
+              <a href="https://cad.onshape.com/documents/5b97372246943e6710cd78f6/w/a276bab8d066d2b69cc8fe05/e/ecc9f3fcdd4f0e765df44b8f">link.</a>
+            </p>
+            <p class="lead">Design considerations were as follows:
+              <ul class="lead">
+                <li>Snap fit PCB</li>
+                <li>Space for LiPo battery + Connector</li>
+                <li>External Power Port</li>
+                <li>Programming port</li>
+                <li>Snap fit enclosure top</li>
+                <li>Belt loop on back of enclosure</li>
+              </ul>
+            </p>
+            <p class="lead">This enclosure was manufactured by MakeXYZ with a .step file</p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/Enclosure.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+
+    <a name="Results"></a>
+    <div class="content-section-b">
+      <h1 style="text-align: center" class="section-heading">Results</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <p class="lead">Blindfolded users experienced drastic improvements navigating through the course with haptic feedback. While
+              navigating through a two-dimensional space, users found difficulty monitoring their speed. As a result they
+              were given audio feedback when moving. Subjects with more experience playing video games were able to complete
+              the two-dimensional tests with less difficulty than those who did not play games. However, subjects globally
+              completed three-dimensional mazes with fewer collisions using the feedback system. Once in a three-dimensional
+              test, test subjects were able to navigate with more comfort. In the virtual test setting, users had a much
+              stronger sense of speed and spacial awareness when walking in real life instead of using a controller.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/Joystick2.png" alt="">
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/Joystick1.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/VIVE2.png" alt="">
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px" class="img-responsive" src="documents/VIVE1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+
+
+
+    <a name="Videos"></a>
+    <div class="content-section-b">
+      <h1 style="text-align: center" class="section-heading">Videos</h1>
+      <div class="container">
+        <div class="r3vow">
+          <div class="col-lg-6">
+            <iframe style="display: block;margin: 0 auto;" width="560" height="315" src="https://www.youtube.com/embed/zNaybc2idpc?rel=0&amp;showinfo=0"
+              frameborder="0" allowfullscreen></iframe>
+            <p style="text-align:center;">Real world user, navigateing maze with the VIEW system. (Without vision)</p>
+          </div>
+          <div class="col-lg-6">
+            <iframe style="display: block;margin: 0 auto;" width="560" height="315" src="https://www.youtube.com/embed/5hGhq5EGMWI?rel=0&amp;showinfo=0"
+              frameborder="0" allowfullscreen></iframe>
+            <p style="text-align:center;">In game footage, of same user navigateing maze (Without vision)</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img class="img-responsive" src="documents/blindcontroller.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <iframe style="display: block;margin: 0 auto;" width="560" height="315" src="https://www.youtube.com/embed/vI9XvYB4Wns?rel=0&amp;showinfo=0"
+              frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <a name="Awards"></a>
+    <div class="content-section-b">
+      <h1 style="text-align: center" class="section-heading">Awards</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2>1st Place</h2>
+            <h3>2017 Capstone Competition
+              <p>
+                <i>Northeastern University</i>
+              </p>
+            </h3>
+            <p class="lead">With strong competiton, competing aginst 12 other teams, the VIEW team took first place overall.</p>
+            <p class="lead">
+              <a href="./Awards/Capstone.html">Link to formal website</a>
+            </p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px;" class="img-responsive" src="documents/award.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <hr>
+            <hr>
+            <img style="display: block;margin: 0 auto;" class="img-responsive" src="documents/team.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <h2>Sponsorship</h2>
+            <h3>Augmented Cognition Laboratory
+              <p>
+                <i>Northeastern University</i>
+              </p>
+            </h3>
+            <p class="lead">A special thank you to <a href="http://www.northeastern.edu/ostadabbas/teams/sarah-ostadabbas/">Dr. Sarah Ostadabbas</a> from NEU's ACLab. Without her mentorship, financial support, as well as institutional backing this project would not have been possible.</p>
+            <a href="http://www.northeastern.edu/ostadabbas/" class="btn btn-default btn-lg">
+              <i class="fa fa-link fa-fw"></i>
+              <span class="network-name">Learn more about the ACLab</span>
+          </a>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img style="padding-top: 70px;" class="img-responsive" src="documents/ACLAB.png" alt="">
+          </div>
+        </div>
+      <!-- /.container -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-inline">
+            <li>
+              <a href="../">Home</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="../">About</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="../">Contact</a>
+            </li>
+          </ul>
+          <p class="copyright text-muted small">Copyright &copy; Justin Hynes-Bruell 2017. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
