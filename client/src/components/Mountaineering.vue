@@ -80,7 +80,7 @@
                     <p class="lead">If I'm not at work, you don't have to look far to find me on the ski slopes, ice climbing in the mountains, or lead climbing at Mt. Rumney. When I’m not out in nature, I’m nose deep in a book on electromagnetic compatibility or designing a product that will hopefully help someone someday.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="../assets/img/Waterfall.jpg" alt="">
+                    <img class="img-responsive" src="../assets/img/Mountaineering/Waterfall.jpg" alt="">
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
                     <p class="lead">At Digital Lumens, my primary task was designing, manufacturing, and testing PCB's for their next generation lighting system. I was often challenged to design cost-effective boards that were innovative in manufacturing techniques, as well as push our product though electromagnetic compatibility. My major project was to develop a USB interface control board that could withstand 5kV standoff voltage, and supply laptop power when necessary. This was controlled by at ATTINY “state machine”, which I also wrote the firmware for. The tools I used to accomplish my projects included Altium, Python, and Solidworks.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6 row-lg-offset-2">
-                    <img style="padding-top: 90px" class="img-responsive" src="../assets/img/DL-PCB.jpg" alt="">
+                    <img style="padding-top: 90px" class="img-responsive" src="../assets/img/Engineering/DL-PCB.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
                     <p class="lead">At Grove Labs, my primary task was drafting, constructing, and outlining quality-assurance tests for PCBs for the Grove Ecosystem. Mechanical specifications were a constant struggle, but I overcame this by negotiating size and number of board layers with my boss, as well as drawing from previous experience to find innovative ways to minimize parts and design a more sleek and efficient product. This involved using various materials in the construction of mechanical prototypes. My primary project in this co-op was designing the first iteration of the Power Control Board PCB, which is now sold in retail. The tools that I used to accomplish my projects included DipTrace, OrCAD, and OnShape.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img style="padding-top: 130px" class="img-responsive" src="../assets/img/GrovePCB.jpg" alt="">
+                    <img style="padding-top: 130px" class="img-responsive" src="../assets/img/Engineering/GrovePCB.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                             <p class="lead">Before Grove, I worked at Hasbro serving on their Advanced Technology and Innovation (ATI) team. On this team, I built hardware prototypes and embedded software programs for products that are now currently on the market, including but not limited to: Star Wars, Nerf, and Sesame Street. I am proficient in 5 internal embedded programming languages as well as Arduino. I have also created PCBs for Hasbro using Eagle, Multisim, and ExpressPCB.</p>
                         </div>
                         <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                            <img style="padding-top: 70px" class="img-responsive" src="../assets/img/ezgif.com-video-to-gif.gif" alt="">
+                            <img style="padding-top: 70px" class="img-responsive" src="../assets/img/Engineering/ezgif.com-video-to-gif.gif" alt="">
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <p class="lead">Both web apps were created using the MEAN stack.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="../assets/img/Hike4000.jpg" alt="">
+                    <img class="img-responsive" src="../assets/img/Engineering/Hike4000.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -193,7 +193,7 @@
                     <p class="lead">I could go on for days.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="../assets/img/Cliff.jpg" alt="">
+                    <img class="img-responsive" src="../assets/img/Mountaineering/Cliff.jpg" alt="">
                 </div>
             </div>
 
@@ -262,7 +262,7 @@
 
 <script>
 export default {
-  name: "Mountaineering",
+  name: "Engineering",
   data() {
     return {
       producion: "No data",
