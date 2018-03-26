@@ -75,7 +75,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">About</h2>
-                    <p class="lead">Content about works and projects</p>
+                    <p class="lead" style="text-align: left;">Born in Boston, I was fortunate enough to be surrounded by the forfront of science and technology. While naviageing Boston's public schools, I knew my future would lie in Engineering</p>
+                    <p class="lead" style="text-align: left;">After taking classes at MIT while in high school, I decided that Northeastern University was the correct collge for me.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/IR_Project.jpeg" alt="">
@@ -146,7 +147,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">Capstone</h2>
-                    <p class="lead">Little about capstone</p>
+                    <p class="lead">Lead development for hardware and firmware. Competing aginst strong competition, pushed team of six engineers 1st place.</p>
                     <a href="./capstone/index.html" class="btn btn-default btn-lg">
                         <i class="fa fa-link fa-fw"></i>
                         <span class="network-name">View Here</span>
@@ -171,7 +172,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">IR remote</h2>
-                    <p class="lead">About project with John Smith</p>
+                    <p class="lead">My teammate, John Smith, and I won 1st place in IR transmitter/reciever competition at Northeastern University. </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/IR_Project.jpeg" alt="">
@@ -192,7 +193,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <h2 class="section-heading">Nomsly</h2>
-                    <p class="lead">Nomsly project info</p>
+                    <p class="lead">Created an inventory management system that is customer facing for food products. Has metrics regarding usage and user preferences as well as out of stock warnings.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/Nomsly.png" alt="">
@@ -212,7 +213,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">Hike 4000</h2>
-                    <p class="lead">Nomsly</p>
+                    <p class="lead">Here, users can create an account using facebook, G+, or email, and share rides with other hikers to the 48 4,000-foot mountains of New Hampshire. They can also find resources and descriptions of the mountains, as well as a weather tracker to see what date would work best for their hike.  I am currently on establishing a public forum where people can ask other hikers their opinions on anything from the mountains themselves to preference of hiking gear.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/Hike4000.jpg" alt="">
@@ -232,7 +233,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">Digital Lumens</h2>
-                    <p class="lead">Nomsly</p>
+                    <p class="lead"><p class="lead">For Digital Lumens, I created a web app using Heroku that allows us to manage and keep an inventory of the company’s electronic components. This web app ran a background python script to scrape DigiKey and Mouser for data regarding the name of the part, the number of parts in stock, the cost of each part, and miscellaneous other data for the components.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/DL.png" alt="">
@@ -272,7 +273,11 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <h2 class="section-heading">Product on Tindie</h2>
-                    <p class="lead">Nomsly</p>
+                    <p class="lead">Created a water level sensor product sold on Tindie</p>
+                    <a href="https://www.tindie.com/products/jbruell94/i2c-water-level-sensor/" class="btn btn-default btn-lg">
+                        <i class="fa fa-link fa-fw"></i>
+                        <span class="network-name">View Here</span>
+                    </a>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="../assets/img/Engineering/tindie.jpeg" alt="">
@@ -284,20 +289,6 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <h2 class="section-heading">Web Devleopment</h2>
-                    <p class="lead">I started taking Code Academy classes, and found myself deeply interested in web development. I then took an official course at Northeastern University, where I built <a href="http://webdevelopmentsummer-jbruell.rhcloud.com/">this</a> website for the class. My final, <a href=" http://webdevelopmentsummer-jbruell.rhcloud.com/project/index.html">Hike 4000</a>, was my was by far my favorite project, and I continue to build on it with the additional functions and designs that I’ve learned after taking the class. As an original idea, I wanted to incorporate what I gathered in my major with my passion for nature and hiking. Here, users can create an account using facebook, G+, or email, and share rides with other hikers to the 48 4,000-foot mountains of New Hampshire. They can also find resources and descriptions of the mountains, as well as a weather tracker to see what date would work best for their hike.  I am currently on establishing a public forum where people can ask other hikers their opinions on anything from the mountains themselves to preference of hiking gear.</p>
-                    <p class="lead">For Digital Lumens, I created a web app using Heroku that allows us to manage and keep an inventory of the company’s electronic components. This web app ran a background python script to scrape DigiKey and Mouser for data regarding the name of the part, the number of parts in stock, the cost of each part, and miscellaneous other data for the components.</p>
-                    <p class="lead">Both web apps were created using the MEAN stack.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="../assets/img/Engineering/Hike4000.jpg" alt="">
                 </div>
             </div>
         </div>
